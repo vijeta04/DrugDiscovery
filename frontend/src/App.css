@@ -1,0 +1,95 @@
+body{
+  background-color: black;
+  background-image: url("drug1.jpg");
+  animation: bg 30s linear infinite;
+  font-family: Verdana, sans-serif;
+  color: rgb(230, 240, 235);
+  
+}
+h1{
+  text-align:center ;
+  padding-top: 35px;
+  color: #5eff5e;
+}
+h3 {
+  color: white;
+}
+.heading{
+  padding-left: 9%;
+  color: white;
+  font-size: larger;
+}
+.text1{
+  color: rgb(219, 219, 219);
+  font-size: larger;
+  padding-left: 9%;
+  margin-top: 20px ;
+}
+input#input{
+  margin-left: 9%;
+  height: 50px;
+  width:82%;
+  text-align: center;
+  border-radius: 27px;
+  color:rgb(16, 238, 16);
+  font-size: large;
+  background-color: transparent;
+  border: #5eff5e solid 1px;
+}
+input#input:focus {
+  outline: none;
+}
+input.search{
+  margin-left: 9%;
+  margin-top: 2%;
+  height: 50px;
+  width: 200px;  
+  text-align: center;
+  background: green;
+  border-radius: 27px;
+  color: rgb(211, 211, 211);
+  border-color: grey;
+  font-family: Verdana,sans-serif;
+  font-size: large;
+  font-weight: 500;
+}
+.output{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.display1{
+  line-height: 50px;
+  box-shadow: inset 0 0 0 2px black;
+  text-align: center;
+  border-radius: 27px;
+  height: 50px;
+  width: 200px;
+  margin: 5px 14px 20px 14px;
+  font-weight: 500;
+  color: white;
+  background-color: deeppink;
+}
+.display2{
+  line-height: 50px;
+  box-shadow: inset 0 0 0 2px white;
+  text-align: center;
+  border-radius: 27px;
+  height: 50px;
+  width: 200px;
+  margin: 5px 44px 20px 54px;
+  font-weight: 500;
+  color:deeppink;
+  background-color: white;
+}
+@keyframes bg{
+  from{background-position: 500px -500px;}
+  to{background-position:0 0;}
+}
+
+::placeholder{
+  color:#7af87a;
+  font-size: large;
+
+}
